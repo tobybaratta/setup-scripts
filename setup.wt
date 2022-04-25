@@ -1,0 +1,24 @@
+# Open and use Windows Terminal Preview, run these commands
+# Don't just run this file, as wt commands don't currently wait on completion 
+# and thus they'll all try to go together
+
+# Needs
+winget install Microsoft.Edge.Dev
+winget install Microsoft.VisualStudioCode.Insiders
+
+# Development Tools
+winget install Microsoft.PowerShell.Preview
+winget install OpenJS.NodeJS.LTS
+winget install Git.Git
+
+# Personal Preference Git Tools
+winget install GitExtensionsTeam.GitExtensions
+winget install KDE.KDiff3
+
+# Streaming
+winget install OBSProject.OBSStudio
+winget install NewTek.NDI5Tools
+
+# Talking to people
+winget install Telegram.TelegramDesktop
+winget install Discord.Discord.Development
